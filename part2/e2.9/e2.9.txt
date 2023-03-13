@@ -1,0 +1,8 @@
+Changes:
+  Dockerfile_frontend: change ENV REACT_APP_BACKEND to http://127.0.0.1/api
+  Dockerfile_backend:  change ENV REQUEST_ORIGIN    to http://localhost
+
+  build images from Dockerfiles..
+
+  docker-compose:      update images for frontend and backend,
+                       remove port declarations for frontend and backend
