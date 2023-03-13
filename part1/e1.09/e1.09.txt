@@ -1,0 +1,1 @@
+$ docker run --rm -v "$(pwd)/e1.9/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
