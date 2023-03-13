@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: example-frontend:e1.14
+    ports:
+      - "5000:5000"
+      
+  backend:
+    image: example-backend:e1.14
+    environment:
+      - REDIS_HOST=redis
+    ports:
+      - "8080:8080"
+  
+  redis:
+    image: redis
