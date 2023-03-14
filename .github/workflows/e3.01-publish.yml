@@ -22,4 +22,4 @@ jobs:
         with:
           push: true
           tags: frensing/express-app:latest
-          context: ./part3/e3.1/express-app/
+          context: ./part3/e3.01/express-app/
