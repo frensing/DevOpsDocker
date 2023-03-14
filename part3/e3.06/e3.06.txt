@@ -1,0 +1,3 @@
+after this step the backend image did not get smaller and is still 1.07GB big
+
+the frontend is also unchange at 1.26GB
