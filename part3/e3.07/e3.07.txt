@@ -1,0 +1,3 @@
+the backend image 1.07GB big but now with the alpine base it is only 447MB big
+
+the frontend image was 1.26GB but is now 464MB
