@@ -1,0 +1,8 @@
+the original image is 130MB
+
+the minified image is now 9.31MB
+
+changes are:
+ - moving to alpine linux as base
+ - install curl without cache
+ - add user to add security
